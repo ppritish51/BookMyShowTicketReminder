@@ -30,7 +30,7 @@ e.g. https://in.bookmyshow.com/kolkata/movies/birds-of-prey/ET00112343 </br>
 1. In data.json set values of notificationDetails['sms'] = 1 to send SMS to numbers, and notificationDetails['sound'] to make beep sound when link is availabel to book tickets, you can set timing of notification sound in data.json at soundDetails['duration'].
 </br>
 </br>
-</hr>
+
 Our data.json format
 ```json
 {
