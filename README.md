@@ -4,7 +4,7 @@ This python project helps to notify user for their favorite movies when tickets 
 
 </br>
 <b>Note</b>
-1. General SMS service provided by Fast2sms is allowed during 9 AM to 9 PM, but for all time service you can get approval of a SMS template at Bulk SMS->Quick Trans, after this you can send this template any time otherwise your normal sms will be scheduled at 9 AM next day.
+1. General SMS service provided by Fast2sms is allowed during 9 AM to 9 PM, but for all time service you can get approval of a SMS template at Bulk SMS->Quick Trans(after registering at https://www.fast2sms.com/), after this you can send this template any time otherwise your normal sms will be scheduled at 9 AM next day.
 </br>
 <h2>Steps to run the code</h2>
 
