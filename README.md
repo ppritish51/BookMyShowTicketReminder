@@ -20,15 +20,17 @@ To run the program this data config needs to be set. Starting steps states how t
 2. Set message at fast2smsDetails['data']['message']
 
 <h3>Step 3(Getting Movie link which we want to monitor)</h3>
-1. Go to book my show and select a movie for which you want notify yourself when movie ticket is availabel and then copy the link.
-<b>Note</b> 
+1. Go to book my show and select a movie for which you want notify yourself when movie ticket is availabel and then copy the link.</br>
+<b>Note</b>
 1. Select movie based on a city in which you are looking for ticket. Like link below is searching tickets in Kolkata,
-e.g. https://in.bookmyshow.com/kolkata/movies/birds-of-prey/ET00112343.
+e.g. https://in.bookmyshow.com/kolkata/movies/birds-of-prey/ET00112343 </br>
 2. Then set fast2smsDetails['data']['movieLink'] to be that link
 
 <h3>Step 4(Selecting services for notification)</h3>
 1. In data.json set values of notificationDetails['sms'] = 1 to send SMS to numbers, and notificationDetails['sound'] to make beep sound when link is availabel to book tickets, you can set timing of notification sound in data.json at soundDetails['duration'].
-
+</br>
+</br>
+</hr>
 Our data.json format
 ```json
 {
